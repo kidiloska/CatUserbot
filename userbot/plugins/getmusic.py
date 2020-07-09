@@ -37,7 +37,7 @@ async def _(event):
                 loa,
                 force_document=True,
                 allow_cache=False,
-                caption=query,
+                caption=query + "\n`Uploaded by` : [𔒒♻️K࿆I𝐝Ｉ𝕠⃤S𝓀α᳄👻](t.me/rosebakthan)\n`Channel` : [💞രാഗമാലിക💖💖](t.me/raagamaliga) ✅",
                 reply_to=reply_to_id
             )
     await event.delete()
